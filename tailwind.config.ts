@@ -23,39 +23,39 @@ const config: Config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#fbf9ff",
-        foreground: "#000807",
+        background: "#ffffff",
+        foreground: "#1a1a1a",
         primary: {
-          DEFAULT: "#9395d3",
-          foreground: "#fbf9ff",
+          DEFAULT: "#7c3aed",
+          foreground: "#ffffff",
         },
         secondary: {
-          DEFAULT: "#b3b7ee",
-          foreground: "#000807",
+          DEFAULT: "#f3f4f6",
+          foreground: "#1a1a1a",
         },
         accent: {
-          DEFAULT: "#a2a3bb",
-          foreground: "#fbf9ff",
+          DEFAULT: "#a855f7",
+          foreground: "#ffffff",
         },
         success: {
           DEFAULT: "#10b981",
-          foreground: "#fbf9ff",
+          foreground: "#ffffff",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
         },
         muted: {
-          DEFAULT: "#f5f3ff",
+          DEFAULT: "#f9fafb",
           foreground: "#6b7280",
         },
         popover: {
-          DEFAULT: "#fbf9ff",
-          foreground: "#000807",
+          DEFAULT: "#ffffff",
+          foreground: "#1a1a1a",
         },
         card: {
-          DEFAULT: "#fbf9ff",
-          foreground: "#000807",
+          DEFAULT: "#ffffff",
+          foreground: "#1a1a1a",
         },
       },
       borderRadius: {

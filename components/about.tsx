@@ -7,75 +7,66 @@ import { StaggeredContainer } from "@/components/staggered-container"
 
 export function About() {
   return (
-    <section id="about" className="py-20 bg-muted">
+    <section id="about" className="py-20 bg-white -mt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <AnimatedSection animation="fade-up">
-            <h2 className="text-4xl font-bold text-center mb-12 text-primary">About Me</h2>
+            <h2 className="text-4xl font-bold text-center mb-12 text-purple-600">About Me</h2>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <AnimatedSection animation="fade-right" delay={200}>
-              <img
-                src="/placeholder.svg?height=400&width=400"
-                alt="Profile"
-                className="rounded-lg shadow-lg w-full max-w-md mx-auto border border-secondary/30"
-              />
-            </AnimatedSection>
-
-            <div className="space-y-6">
-              <AnimatedSection animation="fade-left" delay={300}>
-                <p className="text-lg text-foreground/70">
-                  I'm a passionate Agentic AI Product Manager with over 5 years of experience creating AI-powered
-                  solutions that make a difference. I love turning complex AI challenges into simple, intuitive products
-                  that users love.
-                </p>
-              </AnimatedSection>
-
-              <AnimatedSection animation="fade-left" delay={400}>
-                <p className="text-lg text-foreground/70">
-                  When I'm not strategizing product roadmaps, you can find me exploring new AI technologies, analyzing
-                  user feedback, or enjoying a good cup of coffee while reading about the latest developments in
-                  artificial intelligence and product management.
-                </p>
-              </AnimatedSection>
-
-              <AnimatedSection animation="fade-left" delay={500}>
-                <p className="text-lg text-foreground/70">
-                  I believe in building AI products that are both powerful and user-friendly, always keeping the human
-                  experience at the center of innovation.
-                </p>
-              </AnimatedSection>
+          <AnimatedSection animation="fade-up" delay={200}>
+            <div className="flex justify-center mb-8">
+              <div className="relative">
+                <img
+                  src="/placeholder.svg?height=200&width=200"
+                  alt="Aarathi Nair - AI Product Manager"
+                  className="w-48 h-48 rounded-full object-cover border-4 border-purple-100 shadow-lg"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-purple-400/20 to-transparent"></div>
+              </div>
             </div>
-          </div>
+          </AnimatedSection>
 
-          <StaggeredContainer className="grid md:grid-cols-3 gap-8" staggerDelay={150} animation="fade-up">
-            <Card className="text-center border-secondary/30 bg-background hover:shadow-lg transition-all duration-300 group">
-              <CardContent className="pt-6">
-                <Brain className="h-12 w-12 text-primary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-                <h3 className="text-xl font-semibold mb-2 text-foreground">AI Strategy</h3>
-                <p className="text-foreground/70">
-                  Developing comprehensive AI product strategies that align with business goals and user needs.
+          <AnimatedSection animation="fade-up" delay={400}>
+            <div className="max-w-3xl mx-auto mb-16">
+              <p className="text-lg text-foreground/80 leading-relaxed text-center">
+                I'm an AI Product Manager with 5+ years of experience turning complex AI technologies into practical
+                tools. At NetApp, I led product strategy for AI-powered onboarding. Now I'm building agentic systems
+                like CreditMaestro (finance) and an Incident Triage Agent (support) using LangChain, CrewAI, and
+                Streamlit. I'm passionate about simplifying enterprise workflows through multi-agent orchestration—and
+                I'm actively exploring the next step in that journey with companies like Glean.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <StaggeredContainer className="grid md:grid-cols-3 gap-8" staggerDelay={200} animation="fade-up" delay={200}>
+            <Card className="text-center border-purple-100 bg-white hover:shadow-xl transition-all duration-300 group rounded-2xl overflow-hidden">
+              <CardContent className="pt-8 pb-6 px-6">
+                <Brain className="h-12 w-12 text-purple-600 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-xl font-semibold mb-3 text-foreground">AI Strategy</h3>
+                <p className="text-foreground/70 leading-relaxed">
+                  Crafting intelligent systems that drive measurable ROI through agent reasoning, retrieval, and
+                  automation.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="text-center border-secondary/30 bg-background hover:shadow-lg transition-all duration-300 group">
-              <CardContent className="pt-6">
-                <Users className="h-12 w-12 text-secondary mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-                <h3 className="text-xl font-semibold mb-2 text-foreground">User Focus</h3>
-                <p className="text-foreground/70">
-                  Creating user-centered AI experiences with attention to detail and human-computer interaction.
+            <Card className="text-center border-purple-100 bg-white hover:shadow-xl transition-all duration-300 group rounded-2xl overflow-hidden">
+              <CardContent className="pt-8 pb-6 px-6">
+                <Users className="h-12 w-12 text-purple-600 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-xl font-semibold mb-3 text-foreground">User Focus</h3>
+                <p className="text-foreground/70 leading-relaxed">
+                  Designing for clarity and trust—so AI feels intuitive, not invisible.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="text-center border-secondary/30 bg-background hover:shadow-lg transition-all duration-300 group">
-              <CardContent className="pt-6">
-                <Target className="h-12 w-12 text-accent mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
-                <h3 className="text-xl font-semibold mb-2 text-foreground">Results Driven</h3>
-                <p className="text-foreground/70">
-                  Delivering measurable outcomes through data-driven decisions and agile product development.
+            <Card className="text-center border-purple-100 bg-white hover:shadow-xl transition-all duration-300 group rounded-2xl overflow-hidden">
+              <CardContent className="pt-8 pb-6 px-6">
+                <Target className="h-12 w-12 text-purple-600 mx-auto mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-xl font-semibold mb-3 text-foreground">Outcome-Obsessed</h3>
+                <p className="text-foreground/70 leading-relaxed">
+                  Every demo I ship solves a real business pain, not a hypothetical problem.
                 </p>
               </CardContent>
             </Card>

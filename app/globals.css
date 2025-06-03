@@ -69,6 +69,21 @@
   }
 }
 
+/* Floating animation for company logos */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
 /* Skill progress animation */
 @keyframes progressFill {
   from {
@@ -87,6 +102,11 @@
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 /* Reduce motion for users who prefer it */
@@ -102,4 +122,14 @@ html {
   html {
     scroll-behavior: auto;
   }
+
+  .float-animation {
+    animation: none !important;
+  }
+}
+
+/* Hero section transition */
+#home {
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  will-change: opacity, transform;
 }
