@@ -46,12 +46,12 @@ export function Hero() {
   }
 
   const companies = [
-    { name: "NetApp", logo: "/placeholder.svg?height=60&width=120&text=NetApp" },
-    { name: "Carnegie Mellon University", logo: "/placeholder.svg?height=60&width=120&text=CMU" },
-    { name: "Vinaj Ventures", logo: "/placeholder.svg?height=60&width=120&text=Scipbox" },
-    { name: "Scripbox", logo: "/placeholder.svg?height=60&width=120&text=Glean" },
-    { name: "FIS", logo: "/placeholder.svg?height=60&width=120&text=Glean" },
-    { name: "Unilever", logo: "/placeholder.svg?height=60&width=120&text=Glean" },
+    { name: "NetApp", logo: "/Netapp.png" },
+    { name: "Carnegie Mellon University", logo: "/CMU.png" },
+    { name: "Vinaj Ventures", logo: "/Vinaj.png" },
+    { name: "Scripbox", logo: "/Scripbox.png" },
+    { name: "Unilever", logo: "/Unilever.png" },
+    { name: "FIS", logo: "/FIS.png" },
   ]
 
   return (
@@ -96,30 +96,37 @@ export function Hero() {
             </div>
           </AnimatedSection>
 
-          {/* Floating Company Logos */}
+          {/* Infinite Scrolling Logo Carousel */}
           <AnimatedSection animation="fade-up" delay={800}>
             <div className="relative mb-16">
-              <p className="text-sm text-foreground/60 mb-6 font-medium">Trusted by leading organizations</p>
-              <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
-                {companies.map((company, index) => (
-                  <div
-                    key={company.name}
-                    className="group relative"
-                    style={{
-                      animationDelay: `${800 + index * 200}ms`,
-                      animation: `float ${3 + index * 0.5}s ease-in-out infinite`,
-                    }}
-                  >
-                    <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-purple-100/50 group-hover:scale-105">
-                      <img
-                        src={company.logo || "/placeholder.svg"}
-                        alt={`${company.name} logo`}
-                        className="h-8 md:h-10 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
-                      />
-                    </div>
-                    <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-purple-400 rounded-2xl opacity-0 group-hover:opacity-20 transition-opacity duration-300 -z-10"></div>
+              <p className="text-sm text-foreground/60 mb-8 font-medium">Trusted by leading organizations</p>
+
+              {/* Logo Carousel Container */}
+              <div className="w-full overflow-hidden bg-white/50 backdrop-blur-sm rounded-2xl py-8 border border-purple-100/50">
+                <div className="logo-carousel">
+                  <div className="logo-track">
+                    {/* First set of logos */}
+                    {companies.map((company, index) => (
+                      <div key={`first-${index}`} className="logo-item">
+                        <img
+                          src={company.logo || "/placeholder.svg"}
+                          alt={`${company.name} logo`}
+                          className="logo-image"
+                        />
+                      </div>
+                    ))}
+                    {/* Duplicate set for seamless loop */}
+                    {companies.map((company, index) => (
+                      <div key={`second-${index}`} className="logo-item">
+                        <img
+                          src={company.logo || "/placeholder.svg"}
+                          alt={`${company.name} logo`}
+                          className="logo-image"
+                        />
+                      </div>
+                    ))}
                   </div>
-                ))}
+                </div>
               </div>
             </div>
           </AnimatedSection>
@@ -137,11 +144,99 @@ export function Hero() {
         </Button>
       </AnimatedSection>
 
-      {/* CSS for floating animation */}
+      {/* CSS for logo carousel animation */}
       <style jsx>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-10px); }
+        .logo-carousel {
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+        }
+
+        .logo-track {
+          display: flex;
+          width: calc(200px * 12); /* 6 logos × 2 sets × 200px each */
+          animation: scroll 30s linear infinite;
+        }
+
+        .logo-item {
+          flex: 0 0 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0 20px;
+        }
+
+        .logo-image {
+          max-height: 46px; /* Increased by 15% from 40px */
+          max-width: 138px; /* Increased by 15% from 120px */
+          width: auto;
+          height: auto;
+          object-fit: contain;
+          /* Removed grayscale filter to show original colors */
+          opacity: 0.9;
+          transition: opacity 0.3s ease;
+        }
+
+        .logo-image:hover {
+          opacity: 1;
+          /* Removed transform scale to prevent hover effects */
+        }
+
+        @keyframes scroll {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(calc(-200px * 6)); /* Move by width of one complete set */
+          }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+          .logo-track {
+            width: calc(150px * 12);
+            animation: scroll 25s linear infinite;
+          }
+
+          .logo-item {
+            flex: 0 0 150px;
+            padding: 0 15px;
+          }
+
+          .logo-image {
+            max-height: 37px; /* Increased by 15% from 32px */
+            max-width: 115px; /* Increased by 15% from 100px */
+          }
+
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(calc(-150px * 6));
+            }
+          }
+        }
+
+        /* Removed hover pause - animation continues infinitely */
+        /* .logo-carousel:hover .logo-track { animation-play-state: paused; } */
+
+        /* Reduce motion for accessibility */
+        @media (prefers-reduced-motion: reduce) {
+          .logo-track {
+            animation: none;
+          }
+          
+          .logo-track {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100%;
+          }
+          
+          .logo-item {
+            flex: 0 0 auto;
+          }
         }
       `}</style>
     </section>
