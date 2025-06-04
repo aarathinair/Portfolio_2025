@@ -46,9 +46,9 @@ export function Hero() {
   }
 
   const companies = [
+    { name: "Vinaj Ventures", logo: "/Vinaj.png" },
     { name: "NetApp", logo: "/Netapp.png" },
     { name: "Carnegie Mellon University", logo: "/CMU.png" },
-    { name: "Vinaj Ventures", logo: "/Vinaj.png" },
     { name: "Scripbox", logo: "/Scripbox.png" },
     { name: "Unilever", logo: "/Unilever.png" },
     { name: "FIS", logo: "/FIS.png" },
