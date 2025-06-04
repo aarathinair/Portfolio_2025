@@ -28,21 +28,34 @@ export function About() {
           </AnimatedSection>
 
           <AnimatedSection animation="fade-up" delay={400}>
-          <div className="max-w-3xl mx-auto mb-16">
-          <p className="text-lg text-foreground/80 leading-relaxed text-justify space-y-4">
-          I'm an <strong>Agentic AI Product Manager</strong> and <strong>Agentic AI Systems Researcher</strong> with 3+ years of experience across <strong>B2B CloudOps</strong> and <strong>B2C Fintech</strong> products. 
-          I’ve led Product Strategy for <strong>AI Onboarding Agent</strong> at NetApp, managed fintech products at Scripbox, and earned my Master’s in Software Management from Carnegie Mellon.
-          </p>
+            <div className="max-w-3xl mx-auto mb-16">
+              <p className="text-lg text-foreground/100 leading-relaxed text-justify space-y-4">
+                I’m an <strong>Agentic AI Product Manager</strong> and <strong>Agentic AI Researcher</strong> with 3+
+                years of experience in <strong>B2B CloudOps</strong> and <strong>B2C Fintech</strong> I’ve led product
+                strategy for <strong>AI onboarding Agent</strong> at NetApp, built fintech tools at Scripbox, and earned
+                my <strong>Master’s from Carnegie Mellon University</strong>.
+              </p>
 
-          <p className="text-lg text-foreground/80 leading-relaxed text-justify space-y-4 mt-4">
-          Today, I prototype multi-agent systems using <strong>LangChain</strong>, <strong>CrewAI</strong>, and <strong>Streamlit</strong> to simplify enterprise workflows. 
-          I work at the intersection of Product, AI Agent Evaluations, and Human-centered design.
-          </p>
+              <p className="text-lg text-foreground/80 leading-relaxed text-justify space-y-4 mt-4">
+                Today, I prototype multi-agent systems using <strong>LangChain</strong>, <strong>CrewAI</strong>, and{" "}
+                <strong>Streamlit</strong> to simplify enterprise workflows. I work at the intersection of Product, AI
+                Agent Evaluations, and Human-centered design.
+              </p>
 
-          <p className="text-lg text-foreground/80 leading-relaxed text-center space-y-4 mt-4">
-          Explore the <strong>Projects</strong> section to see applied Agentic AI work like <strong><em>CreditMaestro</em></strong> and <strong><em>Incident Management</em></strong> in action.
-          </p>
-          </div>
+              <p className="text-lg text-foreground/80 leading-relaxed text-center space-y-4 mt-4">
+                {"Explore the "}
+                <strong>{"Projects"}</strong>
+                {" section to see applied Agentic AI work like "}
+                <strong>
+                  <em>{"CreditMaestro"}</em>
+                </strong>
+                {" and "}
+                <strong>
+                  <em>{"Incident Management"}</em>
+                </strong>
+                {" in action."}
+              </p>
+            </div>
           </AnimatedSection>
 
           <StaggeredContainer className="grid md:grid-cols-3 gap-8" staggerDelay={200} animation="fade-up" delay={200}>
