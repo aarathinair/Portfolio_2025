@@ -30,7 +30,7 @@ export function About() {
           <AnimatedSection animation="fade-up" delay={400}>
           <div className="max-w-3xl mx-auto mb-16">
           <p className="text-lg text-foreground/80 leading-relaxed text-justify space-y-4">
-          I'm an <strong>Agentic AI Product Manager</strong> and agentic systems researcher with 3+ years of experience across <strong>B2B CloudOps</strong> and <strong>B2C Fintech</strong> products. 
+          I'm an <strong>Agentic AI Product Manager</strong> and <strong>Agentic AI Systems Researcher</strong> with 3+ years of experience across <strong>B2B CloudOps</strong> and <strong>B2C Fintech</strong> products. 
           I’ve led Product Strategy for <strong>AI Onboarding Agent</strong> at NetApp, managed fintech products at Scripbox, and earned my Master’s in Software Management from Carnegie Mellon.
           </p>
 
