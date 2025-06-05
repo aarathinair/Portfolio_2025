@@ -57,14 +57,14 @@ export function Contact() {
                 <AnimatedSection animation="fade-right" delay={400}>
                   <div className="flex items-center space-x-3 group">
                     <Mail className="h-5 w-5 text-accent group-hover:scale-110 transition-transform duration-300" />
-                    <span className="text-foreground">aarathi.nair@example.com</span>
+                    <span className="text-foreground">nairaarathi22@gmail.com</span>
                   </div>
                 </AnimatedSection>
 
                 <AnimatedSection animation="fade-right" delay={500}>
                   <div className="flex items-center space-x-3 group">
                     <Phone className="h-5 w-5 text-secondary group-hover:scale-110 transition-transform duration-300" />
-                    <span className="text-foreground">+1 (555) 123-4567</span>
+                    <span className="text-foreground">+1 (650) 705- 9501</span>
                   </div>
                 </AnimatedSection>
 

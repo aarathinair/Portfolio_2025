@@ -13,22 +13,33 @@ export function Footer() {
                 variant="ghost"
                 size="icon"
                 className="rounded-full hover:bg-primary/10 hover:text-primary transition-all duration-300"
+                asChild
               >
-                <Github className="h-5 w-5" />
+                <a href="https://github.com/aarathinair" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-5 w-5" />
+                </a>
               </Button>
+
               <Button
                 variant="ghost"
                 size="icon"
                 className="rounded-full hover:bg-secondary/20 hover:text-secondary transition-all duration-300"
+                asChild
               >
-                <Linkedin className="h-5 w-5" />
+                <a href="https://www.linkedin.com/in/aarathinair1/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </Button>
+
               <Button
                 variant="ghost"
                 size="icon"
                 className="rounded-full hover:bg-accent/10 hover:text-accent transition-all duration-300"
+                asChild
               >
-                <Mail className="h-5 w-5" />
+                <a href="mailto:nairaarathi22@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Mail className="h-5 w-5" />
+                </a>
               </Button>
             </div>
           </AnimatedSection>
@@ -37,7 +48,7 @@ export function Footer() {
             <p className="text-foreground/70 flex items-center justify-center">
               Made with <Heart className="h-4 w-4 mx-1 text-red-500 animate-pulse" /> by Aarathi Nair
             </p>
-            <p className="text-sm text-foreground/50 mt-2">© 2024 All rights reserved.</p>
+            <p className="text-sm text-foreground/50 mt-2">© 2025 All rights reserved.</p>
           </AnimatedSection>
         </div>
       </div>
