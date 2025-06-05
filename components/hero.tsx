@@ -7,7 +7,7 @@ import { AnimatedSection } from "@/components/animated-section"
 
 export function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Agentic AI Product Manager building systems that think and act."
+  const fullText = "Fintech + Agentic AI Product Manager building systems that think and act."
 
   useEffect(() => {
     let index = 0

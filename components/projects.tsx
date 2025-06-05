@@ -11,53 +11,103 @@ import { StaggeredContainer } from "@/components/staggered-container"
 const projects = [
   {
     id: 1,
-    title: "AI-Powered Customer Support Platform",
+    title: "CreditMaestro - Multi-Agent Credit Card Management",
     description:
       "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
     image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Product Strategy", "NLP", "Machine Learning", "User Research"],
+    technologies: ["AI Agents & Evaluations"],
     liveUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Agentic AI Content Generator",
+    title: "Agentic Incident Management System",
     description:
       "Managed the creation of an AI agent that generates personalized content for marketing teams, resulting in 3x faster content creation and 40% higher engagement rates.",
     image: "/placeholder.svg?height=300&width=500",
-    technologies: ["AI Agents", "Product Management", "A/B Testing", "Analytics"],
+    technologies: ["AI Agents & Evaluations"],
     liveUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "Smart Recommendation Engine",
+    title: "PocketCFO - One stop Financial Advisor for Consumers",
     description:
       "Oversaw development of a recommendation system that increased user engagement by 60% through personalized AI-driven suggestions and real-time learning algorithms.",
     image: "/placeholder.svg?height=300&width=500",
-    technologies: ["Recommendation Systems", "Data Science", "User Analytics", "ML"],
+    technologies: ["AI Ethics"],
     liveUrl: "#",
     githubUrl: "#",
   },
   {
     id: 4,
-    title: "AI Ethics Framework",
+    title: "AI Productivity & Task Management for Students",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/placeholder.svg?height=300&width=500",
-    technologies: ["AI Ethics", "Governance", "Policy", "Stakeholder Management"],
+    technologies: ["Product & Strategy - CMU"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 5,
+    title: "HCI & UI/UX - Pregnancy Tracker",
+    description:
+      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Product & Strategy - CMU"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 6,
+    title: "Google Ads - North Star Metric",
+    description:
+      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Product & Strategy - CMU"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 7,
+    title: "MyCircle - Social Media for Autistic Individuals",
+    description:
+      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Product & Strategy - CMU"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 8,
+    title: "Linkedin - OKRs 2024",
+    description:
+      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Product & Strategy - CMU"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 9,
+    title: "YC - Startup Pitch & Investment Analysis",
+    description:
+      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
   },
 ]
 
 export function Projects() {
-  const [filter, setFilter] = useState("all")
+  const [filter, setFilter] = useState("AI Agents & Evaluations")
 
-  const technologies = ["all", "Product Strategy", "AI Agents", "Machine Learning", "User Research", "Analytics"]
+  const technologies = [ "AI Agents & Evaluations", "AI Ethics", "Product & Strategy - CMU", "Pre-2023"]
 
   const filteredProjects =
-    filter === "all"
+    filter === "All"
       ? projects
       : projects.filter((project) =>
           project.technologies.some((tech) => tech.toLowerCase().includes(filter.toLowerCase())),

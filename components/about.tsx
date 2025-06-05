@@ -34,7 +34,7 @@ export function About() {
             <AnimatedSection animation="fade-left" delay={400}>
               <div className="space-y-6">
                 <p className="text-lg text-foreground/100 leading-relaxed text-justify">
-                  I'm an <strong>Agentic AI Product Manager</strong> and <strong>Agentic AI Researcher</strong> with 3+
+                  I'm a <strong>Fintech</strong> and an <strong>Agentic AI Product Manager</strong> and <strong>Agentic AI Researcher</strong> with 3+
                   years of experience in <strong>B2B CloudOps</strong> and <strong>B2C Fintech</strong>. I've led
                   product strategy for <strong>AI onboarding Agent</strong> at NetApp, built fintech tools at Scripbox,
                   and earned my <strong>Master's from Carnegie Mellon University</strong>.

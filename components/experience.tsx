@@ -9,7 +9,7 @@ import { StaggeredContainer } from "@/components/staggered-container"
 const experiences = [
   {
     id: 1,
-    title: "AI Agents Researcher",
+    title: "AI Agents Researcher - Venture Analyst",
     company: "Vinaj Ventures",
     location: "Redwood City,CA",
     duration: "Feb'25 - Apr'25",
@@ -48,7 +48,7 @@ const experiences = [
   },
   {
     id: 4,
-    title: "Platform Product Manager",
+    title: "Platform Product Manager - Payments & Order Management",
     company: "Scripbox - B2C Digital Investment & Advisory App - Series D Accel Funded",
     location: "Bangalore,India",
     duration: "Oct'21 - Aug'23",
@@ -62,7 +62,7 @@ const experiences = [
   {
     id: 5,
     title: "Software Engineer 1",
-    company: "Fidelity Information Services (B2B Enterprise Banking)",
+    company: "Fidelity Information Services (B2B Enterprise Banking Payments)",
     location: "Bangalore,India",
     duration: "Mar'21 - Oct'21",
     type: "Full-time",
@@ -227,16 +227,6 @@ export function Experience() {
               </StaggeredContainer>
             </div>
           </div>
-
-          <AnimatedSection animation="fade-up" delay={800}>
-            <div className="mt-16 text-center">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-secondary/20 to-primary/20 rounded-full border border-secondary/30">
-                <span className="text-sm text-foreground">
-                  <strong className="text-accent">5+ years</strong> of experience in AI Product Management
-                </span>
-              </div>
-            </div>
-          </AnimatedSection>
         </div>
       </div>
     </section>
