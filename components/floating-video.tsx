@@ -4,6 +4,11 @@ import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Play, Pause, Volume2, VolumeX, Maximize2, Minimize2, X, Navigation } from "lucide-react"
 
+// ===== CONFIGURATION =====
+// Set this to false to disable the floating video component
+const ENABLE_FLOATING_VIDEO = false
+// ==========================
+
 interface WalkthroughStep {
   timestamp: number
   section: string
@@ -75,6 +80,9 @@ export function FloatingVideo() {
   const videoRef = useRef<HTMLVideoElement>(null)
   const timerRef = useRef<NodeJS.Timeout | null>(null)
   const lastScrolledStepRef = useRef<number>(-1)
+
+  // If disabled, don't render anything
+  if (!ENABLE_FLOATING_VIDEO) return null
 
   // Mock video playback for development (remove when you have a real video)
   useEffect(() => {
