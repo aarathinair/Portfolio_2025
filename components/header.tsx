@@ -38,13 +38,13 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            {["home", "about", "experience", "projects", "skills", "contact"].map((item) => (
+            {["home", "about", "experience", "projects", "skills", "ai-papers", "contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
                 className="text-foreground/70 hover:text-primary transition-colors capitalize relative group"
               >
-                {item}
+                {item === "ai-papers" ? "AI Papers" : item}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
               </button>
             ))}
@@ -60,13 +60,13 @@ export function Header() {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-secondary/30">
             <div className="flex flex-col space-y-4 pt-4">
-              {["home", "about", "experience", "projects", "skills", "contact"].map((item) => (
+              {["home", "about", "experience", "projects", "skills", "ai-papers", "contact"].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item)}
                   className="text-left text-foreground/70 hover:text-primary transition-colors capitalize"
                 >
-                  {item}
+                  {item === "ai-papers" ? "AI Papers" : item}
                 </button>
               ))}
             </div>
