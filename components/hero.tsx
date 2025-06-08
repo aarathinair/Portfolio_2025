@@ -155,7 +155,7 @@ export function Hero() {
         .logo-track {
           display: flex;
           width: calc(200px * 12); /* 6 logos × 2 sets × 200px each */
-          animation: scroll 30s linear infinite;
+          animation: scroll 20s linear infinite;
         }
 
         .logo-item {
@@ -195,7 +195,7 @@ export function Hero() {
         @media (max-width: 768px) {
           .logo-track {
             width: calc(150px * 12);
-            animation: scroll 25s linear infinite;
+            animation: scroll 15s linear infinite;
           }
 
           .logo-item {
