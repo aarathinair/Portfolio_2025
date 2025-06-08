@@ -118,7 +118,7 @@ export function Experience() {
                               <span className="font-medium text-sm leading-tight">{exp.company}</span>
                             </div>
                             <div className="flex items-center gap-1">
-                              <MapPin className="h-4 w-4 text-secondary flex-shrink-0" />
+                              <MapPin className="h-4 w-4 text-red-500 flex-shrink-0" />
                               <span className="text-sm">{exp.location}</span>
                             </div>
                           </div>
@@ -182,7 +182,7 @@ export function Experience() {
                               <span className="font-medium text-sm leading-tight">{exp.company}</span>
                             </div>
                             <div className="flex items-center gap-1">
-                              <MapPin className="h-4 w-4 text-secondary flex-shrink-0" />
+                              <MapPin className="h-4 w-4 text-red-500 flex-shrink-0" />
                               <span className="text-sm">{exp.location}</span>
                             </div>
                           </div>
