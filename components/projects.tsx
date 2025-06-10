@@ -12,7 +12,7 @@ const projects = [
     id: 1,
     title: "CreditMaestro - Multi-Agent Credit Card Management",
     description:
-      "An AI-driven multi-agent platform that automates transaction categorization, spending insights, optimal payment scheduling across multiple credit cards using Plaid & Whatsapp MCP",
+      "A multi-agent platform that automates transaction categorization, spending insights & recommendations,across multiple credit cards using Plaid & Whatsapp MCP",
     image: "/Project_CreditMaestro_MCP.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
     liveUrl: "https://www.youtube.com/watch?v=BahukjxFChg",
