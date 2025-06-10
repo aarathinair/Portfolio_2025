@@ -53,7 +53,7 @@ const projects = [
     title: "PocketCFO - One stop Financial Advisor for Consumers",
     description:
       "Oversaw development of a recommendation system that increased user engagement by 60% through personalized AI-driven suggestions and real-time learning algorithms.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_PocketCFO.png?height=300&width=500",
     technologies: ["AI Ethics"],
     liveUrl: "#",
     githubUrl: "#",
