@@ -13,19 +13,19 @@ const projects = [
     title: "CreditMaestro - Multi-Agent Credit Card Management",
     description:
       "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_CreditMaestro_MCP.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://www.youtube.com/watch?v=BahukjxFChg",
+    githubUrl: "https://github.com/aarathinair/CreditMaestro_MCP",
   },
   {
     id: 2,
     title: "Decagon x Stripe - Agentic Payment Dispute Management",
     description:
       "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_DecagonxStripe.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/document/d/13hssCBkJHvp0oH06e6mp_QDBkC3anAI1cu69oTyyL4o/edit?usp=sharing",
     githubUrl: "#",
   },
   {
@@ -33,9 +33,9 @@ const projects = [
     title: "EMA x Stripe - Merchant Onboarding Management",
     description:
       "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_EmaxStripe.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/document/d/1jKkHen0oNXy6A49f5BS65wkA1FXOcQNTUe9pzD3MIg0/edit?usp=sharing",
     githubUrl: "#",
   },
   {
@@ -43,10 +43,10 @@ const projects = [
     title: "Agentic Incident Management System",
     description:
       "Managed the creation of an AI agent that generates personalized content for marketing teams, resulting in 3x faster content creation and 40% higher engagement rates.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_Abnormal.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://abnormalaiaassessment-idhtepbke9psjncj3ugi2f.streamlit.app/",
+    githubUrl: "https://github.com/aarathinair/AbnormalAI_aassessment",
   },
   {
     id: 5,
