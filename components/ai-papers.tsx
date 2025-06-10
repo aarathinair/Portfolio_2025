@@ -42,9 +42,9 @@ const papers: Paper[] = [
   },
   {
     id: 2,
-    title: "TRISM FOR AGENTIC AI: A REVIEW OF TRUST, RISK, AND SECURITY MANAGEMENT IN LLM-BASED AGENTIC MULTI-AGENT SYSTEMS",
+    title: "TRISM for Agentic AI: A review of trust, risk, and security management in LLM-based Agentic multi-agent systems",
     authors: ["Shaina Raza1", "Ranjan Sapkota", "Manoj Karkee", "Christos Emmanouilidis"],
-    venue: "Anthropic",
+    venue: "Cornell",
     date: "2025-06-04",
     category: "Agentic Security",
     keyInsights: [
@@ -55,6 +55,42 @@ const papers: Paper[] = [
     relevance:
       "Essential for building trustworthy AI agents in production environments - aligns with my AI ethics focus",
     arxivUrl: "https://arxiv.org/abs/2506.04133",
+    status: "completed",
+    tags: ["AI Safety", "Constitutional AI", "RLHF"],
+  },
+  {
+    id: 3,
+    title: "Ema-Fusion: A self-optimizing system for seamless LLM selection and integration",
+    authors: ["Shaina Raza1", "Ranjan Sapkota", "Manoj Karkee", "Christos Emmanouilidis"],
+    venue: "EMA.ai",
+    date: "2025-06-04",
+    category: "Company Specific",
+    keyInsights: [
+      "Self-supervised approach to training helpful, harmless AI assistants",
+      "Uses AI feedback to critique and revise responses according to constitutional principles",
+      "Reduces need for human feedback while maintaining safety and helpfulness",
+    ],
+    relevance:
+      "Essential for building trustworthy AI agents in production environments - aligns with my AI ethics focus",
+    arxivUrl: "https://arxiv.org/abs/2504.10681",
+    status: "completed",
+    tags: ["AI Safety", "Constitutional AI", "RLHF"],
+  },
+  {
+    id: 4,
+    title: "A Survey of AI Agent Protocols",
+    authors: ["Shaina Raza1", "Ranjan Sapkota", "Manoj Karkee", "Christos Emmanouilidis"],
+    venue: "ANP Community",
+    date: "2025-06-04",
+    category: "Multi-Agent Systems",
+    keyInsights: [
+      "Self-supervised approach to training helpful, harmless AI assistants",
+      "Uses AI feedback to critique and revise responses according to constitutional principles",
+      "Reduces need for human feedback while maintaining safety and helpfulness",
+    ],
+    relevance:
+      "Essential for building trustworthy AI agents in production environments - aligns with my AI ethics focus",
+    arxivUrl: "https://arxiv.org/abs/2504.16736",
     status: "completed",
     tags: ["AI Safety", "Constitutional AI", "RLHF"],
   },
