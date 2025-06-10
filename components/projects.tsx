@@ -44,7 +44,7 @@ const projects = [
     title: "AI Productivity & Task Management for Students",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_GoalDiggers.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
@@ -54,7 +54,7 @@ const projects = [
     title: "HCI & UI/UX - Pregnancy Tracker",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_PregnancyTracker.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
@@ -64,7 +64,7 @@ const projects = [
     title: "Google Ads - North Star Metric",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_GoogleAds.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
@@ -74,7 +74,7 @@ const projects = [
     title: "MyCircle - Social Media for Autistic Individuals",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_MyCircle.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
@@ -84,7 +84,7 @@ const projects = [
     title: "Linkedin - OKRs 2024",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_LinkedinOKRs.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
@@ -94,7 +94,7 @@ const projects = [
     title: "YC - Startup Pitch & Investment Analysis",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Project_YCPitch.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "#",
     githubUrl: "#",
