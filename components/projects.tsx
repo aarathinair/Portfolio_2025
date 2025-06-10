@@ -12,7 +12,7 @@ const projects = [
     id: 1,
     title: "CreditMaestro - Multi-Agent Credit Card Management",
     description:
-      "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
+      "An AI-driven multi-agent platform that automates transaction categorization, spending insights, optimal payment scheduling across multiple credit cards using Plaid & Whatsapp MCP",
     image: "/Project_CreditMaestro_MCP.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
     liveUrl: "https://www.youtube.com/watch?v=BahukjxFChg",
@@ -22,7 +22,7 @@ const projects = [
     id: 2,
     title: "Decagon x Stripe - Agentic Payment Dispute Management",
     description:
-      "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
+      "Decagon's Agent Operating Principles agentic framework for Stripe to automate evidence gathering, dispute filing, and outcome tracking for seamless payment dispute resolution.",
     image: "/Project_DecagonxStripe.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
     liveUrl: "https://docs.google.com/document/d/13hssCBkJHvp0oH06e6mp_QDBkC3anAI1cu69oTyyL4o/edit?usp=sharing",
@@ -32,7 +32,7 @@ const projects = [
     id: 3,
     title: "EMA x Stripe - Merchant Onboarding Management",
     description:
-      "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
+      "Stripe's Merchant Onboarding Agent powered by EMA Fusion agentic workflow to automate onboarding—via smart orchestration and compliance checks.",
     image: "/Project_EmaxStripe.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
     liveUrl: "https://docs.google.com/document/d/1jKkHen0oNXy6A49f5BS65wkA1FXOcQNTUe9pzD3MIg0/edit?usp=sharing",
@@ -42,7 +42,7 @@ const projects = [
     id: 4,
     title: "Agentic Incident Management System",
     description:
-      "Managed the creation of an AI agent that generates personalized content for marketing teams, resulting in 3x faster content creation and 40% higher engagement rates.",
+      "An autonomous incident response system for Abnormal AI that detects, triages, and orchestrates remediation steps through coordinated AI agents.",
     image: "/Project_Abnormal.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
     liveUrl: "https://abnormalaiaassessment-idhtepbke9psjncj3ugi2f.streamlit.app/",
@@ -52,7 +52,7 @@ const projects = [
     id: 5,
     title: "PocketCFO - One stop Financial Advisor for Consumers",
     description:
-      "Oversaw development of a recommendation system that increased user engagement by 60% through personalized AI-driven suggestions and real-time learning algorithms.",
+      "A hyper-personalized PocketCFO AI delivering holistic financial management—budgeting, ethical investing, and real-time coaching—presented in my AI Ethics class using frameworks like the Ethical Matrix, value-sensitive design, and discussions on fairness, accountability, and transparency (FAT).",
     image: "/Project_PocketCFO.png?height=300&width=500",
     technologies: ["AI Ethics"],
     liveUrl: "#",
@@ -62,7 +62,7 @@ const projects = [
     id: 6,
     title: "AI Productivity & Task Management for Students",
     description:
-      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+      "An AI-powered assistant that organizes coursework, suggests optimal study plans, and automates task reminders for students.",
     image: "/Project_GoalDiggers.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "https://docs.google.com/presentation/d/1zqjitpQccz8I8z_B2S3v2iXjIGHVJCm3KXiKvswqLVs/edit?usp=sharing",
@@ -72,7 +72,7 @@ const projects = [
     id: 7,
     title: "HCI & UI/UX - Pregnancy Tracker",
     description:
-      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+      "A human-centered pregnancy tracker with intuitive visualizations, personalized health insights, and milestone reminders.",
     image: "/Project_PregnancyTracker.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "https://docs.google.com/presentation/d/1_CtKyiBvpymD5BD6CsoNQASWLZSJuD6DdWCYzkAAixk/edit?usp=sharing",
@@ -82,7 +82,7 @@ const projects = [
     id: 8,
     title: "Google Ads - North Star Metric",
     description:
-      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+      "A data-driven dashboard that defines, tracks, and optimizes your Google Ads North Star metric to maximize long-term ROI.",
     image: "/Project_GoogleAds.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "https://docs.google.com/presentation/d/1KpEpYapJ01NAFsjQMrOAzGau0Tx3G9Nhu3iazdRCZNc/edit?usp=sharing",
@@ -92,7 +92,7 @@ const projects = [
     id: 9,
     title: "MyCircle - Social Media for Autistic Individuals",
     description:
-      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+      "A supportive social platform designed for autistic users, offering structured interactions, interest-based communities, and sensory-friendly design.",
     image: "/Project_MyCircle.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "https://docs.google.com/presentation/d/1DUq7ckq2le3u3LvSiv_U2X8sFv08jYJQnVzwPp5BtTs/edit?usp=sharing",
@@ -102,7 +102,7 @@ const projects = [
     id: 10,
     title: "Linkedin - OKRs 2024",
     description:
-      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+      "A strategic OKR framework that aligns LinkedIn’s 2024 goals—user growth, engagement, and monetization—across product and marketing teams.",
     image: "/Project_LinkedinOKRs.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "https://docs.google.com/presentation/d/1Hmegg2pIWxi4aWnQIvYCFY2OEjSt-7BA4j6QBytFaag/edit?usp=sharing",
@@ -112,7 +112,7 @@ const projects = [
     id: 11,
     title: "YC - Startup Pitch & Investment Analysis",
     description:
-      "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
+      "A comprehensive toolkit that evaluates YC startup pitches, benchmarks key metrics, and provides data-driven investment recommendations.",
     image: "/Project_YCPitch.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
     liveUrl: "https://docs.google.com/presentation/d/1N8d1HtaMD8TqogCyIk4lVWpdIbPtaZV2K_wtbnzjU6M/edit?usp=sharing",
@@ -192,7 +192,7 @@ export function Projects() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-foreground/70">{project.description}</p>
+                  <p className="text-foreground/70 text-justify leading-relaxed">{project.description}</p>
                 </CardContent>
               </Card>
             ))}
