@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { ExternalLink, Github } from "lucide-react"
 import { AnimatedSection } from "@/components/animated-section"
 import { StaggeredContainer } from "@/components/staggered-container"
@@ -104,7 +103,7 @@ const projects = [
 export function Projects() {
   const [filter, setFilter] = useState("AI Agents & Evaluations")
 
-  const technologies = [ "AI Agents & Evaluations", "AI Ethics", "Product & Strategy - CMU", "Pre-2023"]
+  const technologies = ["AI Agents & Evaluations", "AI Ethics", "Product & Strategy - CMU", "Pre-2023"]
 
   const filteredProjects =
     filter === "All"
@@ -173,18 +172,7 @@ export function Projects() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-foreground/70 mb-4">{project.description}</p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech) => (
-                      <Badge
-                        key={tech}
-                        variant="secondary"
-                        className="bg-secondary/20 text-secondary border-secondary/30 hover:bg-secondary/30 transition-colors"
-                      >
-                        {tech}
-                      </Badge>
-                    ))}
-                  </div>
+                  <p className="text-foreground/70">{project.description}</p>
                 </CardContent>
               </Card>
             ))}
