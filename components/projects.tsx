@@ -20,6 +20,26 @@ const projects = [
   },
   {
     id: 2,
+    title: "Decagon x Stripe - Agentic Payment Dispute Management",
+    description:
+      "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["AI Agents & Evaluations"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 3,
+    title: "EMA x Stripe - Merchant Onboarding Management",
+    description:
+      "Led product development for an intelligent customer support system using NLP and machine learning to automate 70% of customer inquiries while maintaining high satisfaction scores.",
+    image: "/placeholder.svg?height=300&width=500",
+    technologies: ["AI Agents & Evaluations"],
+    liveUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
     title: "Agentic Incident Management System",
     description:
       "Managed the creation of an AI agent that generates personalized content for marketing teams, resulting in 3x faster content creation and 40% higher engagement rates.",
@@ -29,7 +49,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 3,
+    id: 5,
     title: "PocketCFO - One stop Financial Advisor for Consumers",
     description:
       "Oversaw development of a recommendation system that increased user engagement by 60% through personalized AI-driven suggestions and real-time learning algorithms.",
@@ -39,63 +59,63 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 4,
+    id: 6,
     title: "AI Productivity & Task Management for Students",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/Project_GoalDiggers.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/presentation/d/1zqjitpQccz8I8z_B2S3v2iXjIGHVJCm3KXiKvswqLVs/edit?usp=sharing",
     githubUrl: "#",
   },
   {
-    id: 5,
+    id: 7,
     title: "HCI & UI/UX - Pregnancy Tracker",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/Project_PregnancyTracker.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/presentation/d/1_CtKyiBvpymD5BD6CsoNQASWLZSJuD6DdWCYzkAAixk/edit?usp=sharing",
     githubUrl: "#",
   },
   {
-    id: 6,
+    id: 8,
     title: "Google Ads - North Star Metric",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/Project_GoogleAds.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/presentation/d/1KpEpYapJ01NAFsjQMrOAzGau0Tx3G9Nhu3iazdRCZNc/edit?usp=sharing",
     githubUrl: "#",
   },
   {
-    id: 7,
+    id: 9,
     title: "MyCircle - Social Media for Autistic Individuals",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/Project_MyCircle.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/presentation/d/1DUq7ckq2le3u3LvSiv_U2X8sFv08jYJQnVzwPp5BtTs/edit?usp=sharing",
     githubUrl: "#",
   },
   {
-    id: 8,
+    id: 10,
     title: "Linkedin - OKRs 2024",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/Project_LinkedinOKRs.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/presentation/d/1Hmegg2pIWxi4aWnQIvYCFY2OEjSt-7BA4j6QBytFaag/edit?usp=sharing",
     githubUrl: "#",
   },
   {
-    id: 9,
+    id: 11,
     title: "YC - Startup Pitch & Investment Analysis",
     description:
       "Developed comprehensive AI ethics guidelines and governance framework adopted across the organization, ensuring responsible AI development and deployment practices.",
     image: "/Project_YCPitch.png?height=300&width=500",
     technologies: ["Product & Strategy - CMU"],
-    liveUrl: "#",
+    liveUrl: "https://docs.google.com/presentation/d/1N8d1HtaMD8TqogCyIk4lVWpdIbPtaZV2K_wtbnzjU6M/edit?usp=sharing",
     githubUrl: "#",
   },
 ]
