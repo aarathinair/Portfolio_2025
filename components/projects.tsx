@@ -25,8 +25,8 @@ const projects = [
       "Decagon's Agent Operating Principles agentic framework for Stripe to automate evidence gathering, dispute filing, and outcome tracking for seamless payment dispute resolution.",
     image: "/Project_DecagonxStripe.png?height=300&width=500",
     technologies: ["AI Agents & Evaluations"],
-    liveUrl: "https://docs.google.com/document/d/13hssCBkJHvp0oH06e6mp_QDBkC3anAI1cu69oTyyL4o/edit?usp=sharing",
-    githubUrl: "#",
+    liveUrl: "https://dispute-agent-navigator.lovable.app/",
+    githubUrl: "https://docs.google.com/document/d/13hssCBkJHvp0oH06e6mp_QDBkC3anAI1cu69oTyyL4o/edit?usp=sharing",
   },
   {
     id: 3,
